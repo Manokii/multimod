@@ -1,0 +1,12 @@
+{
+  "extends": "@workspace/typescript-config/base.json",
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "baseUrl": ".",
+    "paths": {
+      "@workspace/commons/*": ["./*"]
+    }
+  },
+  "include": ["."],
+  "exclude": ["node_modules"]
+}
